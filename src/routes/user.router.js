@@ -1,6 +1,6 @@
 const {  login, getAll, create, getOne, remove, update, verifyCode, getLoggedUser } = require('../controllers/user.controllers');
 const express = require('express');
-const verifyJWT = require('../utils/verifyjWT');
+const verifyJWT = require('../utils/verifyJWT');
 
 const userRouter = express.Router();
 
